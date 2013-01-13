@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="charge-controller-lifepo : MSP430 based single cell LiFePo4 charge controller for photovoltaic applications; designed for low cost, robustness, easy soldering and hackability" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>charge-controller-lifepo</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/opensourcesolar/charge-controller-lifepo">View on GitHub</a>
+
+          <h1 id="project_title">charge-controller-lifepo</h1>
+          <h2 id="project_tagline">MSP430 based single cell LiFePo4 charge controller for photovoltaic applications; designed for low cost, robustness, easy soldering and hackability</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/opensourcesolar/charge-controller-lifepo/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/opensourcesolar/charge-controller-lifepo/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome</h3>
+
+<p>The charge controller is made for the <a href="http://blog.opensource-solar.org">Opensource-solar.org</a> project which is about designing open source hardware for pico photovoltaic systems.</p>
+
+<p>The goal is to design a system for about 15 USD which can provide electricity for LED lighting, mobile phone charging and other small appliances which lasts at least 15 years.</p>
+
+<h3>Charge controller technical design goals</h3>
+
+<p>The charge controller has a 8 cell photovoltaics panel as its input, which delivers approximately 1 A at 4 V. This charges a LiFePo4 battery (starting at 3.2 V, 2.2 Ah up to bigger sizes with 10-20 Ah).
+The MSP430 microcontroller on the charge controller board prevents over charging and deep discharging by sampling the battery voltage. It also controls the two outputs which are a LED light and a DC/DC converter which delivers 5V @ 1A for charging mobile devices. The built-in capacitive touch peripherals of the microcontroller are used for switching the light and the charger on and off.</p>
+
+<h3>Current state</h3>
+
+<p>Several prototypes exist. The most promising design will be uploaded shortly and then improved upon.</p>
+
+<h3>Support or Contact</h3>
+
+<p>Contact <a href="https://github.com/opensourcesolar" class="user-mention">@opensourcesolar</a> if you need help or want to help us.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">charge-controller-lifepo maintained by <a href="https://github.com/opensourcesolar">opensourcesolar</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
